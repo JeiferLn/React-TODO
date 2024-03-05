@@ -34,8 +34,3 @@
 .todoCompleted{
     filter: grayscale(0);
 }
-:is(.button-check, .button-delete):hover{
-    cursor: pointer;
-    filter: grayscale(0);
-    transition: all .3s ease;
-}  

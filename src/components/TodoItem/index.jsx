@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 
 function TodoItem({text, completed, onCompleted, onDelete}) {
+  console.log(onCompleted);
   return (
     <li className='todo-item'>
       <button 
