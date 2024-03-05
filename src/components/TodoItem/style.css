@@ -1,0 +1,41 @@
+.todo-item{
+    width: 85vw;
+    margin: 20px auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: #0000001a 0px 4px 12px;
+}
+.todo-item p{
+    width: 70%;
+    text-align: start;
+}
+.button{
+    background-color: white;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+.button-check{
+    width: 30px;
+    height: 30px;
+    background-image: url('../../assets/circle-check.svg');
+    transition: all .3s ease;
+}
+.button-delete{
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/x.svg');
+    transition: all .3s ease;
+}
+.todoCompleted{
+    filter: grayscale(0);
+}
+:is(.button-check, .button-delete):hover{
+    cursor: pointer;
+    filter: grayscale(0);
+    transition: all .3s ease;
+}  

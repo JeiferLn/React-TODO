@@ -1,0 +1,8 @@
+.todo-title{
+    width: 85vw;
+    margin: 20px auto;
+    font-weight: 400;
+}
+.todo-title span{
+    font-weight: 700;
+}

@@ -1,0 +1,14 @@
+.create-button{
+    width: 85vw;
+    height: 6.5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #7996f5;
+    background-image: url('../../assets/add.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 5%;
+}
+.create-button:hover{
+    cursor: pointer;
+}
